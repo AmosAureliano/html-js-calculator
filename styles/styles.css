@@ -53,10 +53,60 @@ body{
 
 button{
     background: none;
+    padding: 1rem;
+    border: 0.2px solid black;
 }
 .calculator-keys{
     background-color: var(--grey-200);
     display: grid;
     grid-template-columns: repeat(4, auto);
-    
+    grid-template-areas: 
+        ". . . ."
+        "sete oito nove igual"
+        "quatro cinco seis igual"
+        "um dois tres igual"
+        "zero ponto limpar igual";
+}
+
+
+.um{
+    grid-area: um;
+}
+.dois{
+    grid-area: dois;
+}
+.tres{
+    grid-area: tres;
+}
+.quatro{
+    grid-area: quatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+.seis{
+    grid-area: seis;
+}
+.sete{
+    grid-area: sete;
+}
+.oito{
+    grid-area: oito;
+}
+.nove{
+    grid-area: nove;
+}
+.zero{
+    grid-area: zero;
+}
+.ponto{
+    grid-area: ponto;
+}
+.limpa{
+    grid-area: limpar;
+}
+
+.igual{
+    grid-area: igual;
+    background-color: var(--orange-400);
 }
