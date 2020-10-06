@@ -40,6 +40,9 @@ body{
 
 .calculator{
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.6rem;
+    overflow: hidden;
 }
 
 .calculator-display{
@@ -54,7 +57,14 @@ body{
 button{
     background: none;
     padding: 1rem;
-    border: 0.2px solid black;
+    border: 0.1px solid var(--grey-300);
+    outline-style: none;
+    background-color: #FFFF;
+    font-size: 0.9rem;
+}
+
+button:focus{
+    background-color: var(--grey-500);
 }
 .calculator-keys{
     background-color: var(--grey-200);
@@ -109,4 +119,16 @@ button{
 .igual{
     grid-area: igual;
     background-color: var(--orange-400);
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+.igual:hover{
+    background-color: var(--orange-500);
+}
+
+.mais, 
+.menos,
+.vezes,
+.divide{
+    background-color: var(--grey-200);
 }
