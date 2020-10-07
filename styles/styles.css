@@ -52,6 +52,7 @@ body{
     padding: 0.75rem 1rem;
     text-align: right;
     font-size: calc(1rem * 1.2 * 1.2);
+    border-bottom:  3px solid #7b8794;;
 }
 
 button{
