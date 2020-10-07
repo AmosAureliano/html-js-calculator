@@ -114,6 +114,7 @@ button:focus{
 }
 .limpa{
     grid-area: limpar;
+    background-color: var(--grey-200);
 }
 
 .igual{
