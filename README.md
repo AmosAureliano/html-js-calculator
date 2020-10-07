@@ -7,7 +7,7 @@ Esse é um projeto com foco em praticar css.
 - Coloque efeitos sonoros únicos de cada "tecla".
 
 <h2 align=center>
-  <img src=https://imgur.com/a/Ni9AO8e/>
+  <img src=https://i.imgur.com/h0xVqZG.png />
  </h2>
  
 <h2 align=center>
